@@ -1,0 +1,1 @@
+# My Cloud is an open source free cloud application, that establishes free file uploads and downloads to protect against ransomware and storage failure. 

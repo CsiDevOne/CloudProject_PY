@@ -1,0 +1,119 @@
+2023-01-22 21:46:30,677: INFO - Server is now listening ...
+2023-01-22 21:46:32,429: INFO - 192.168.2.100 connected to the server on port 60794
+2023-01-22 21:46:32,430: INFO - Thread for client 192.168.2.100 started
+2023-01-22 21:46:32,431: INFO - ('192.168.2.100', 60794) connected to the server
+2023-01-22 21:46:57,513: INFO - REQUEST: < log >admin|admin.admin@admin.dmain|dmin
+2023-01-22 21:47:19,327: INFO - 192.168.2.100 connected to the server on port 60818
+2023-01-22 21:47:19,328: INFO - Thread for client 192.168.2.100 started
+2023-01-22 21:47:19,329: INFO - ('192.168.2.100', 60818) connected to the server
+2023-01-22 21:47:51,766: INFO - REQUEST: < log >admin|admin.admin@admin.dmain|dmin
+2023-01-24 21:04:03,032: INFO - Server is now listening ...
+2023-01-24 21:04:07,641: INFO - 192.168.2.100 connected to the server on port 52969
+2023-01-24 21:04:07,642: INFO - Thread for client 192.168.2.100 started
+2023-01-24 21:04:07,651: INFO - ('192.168.2.100', 52969) connected to the server
+2023-01-24 21:04:34,898: INFO - Server is now listening ...
+2023-01-24 21:04:36,661: INFO - 192.168.2.100 connected to the server on port 52971
+2023-01-24 21:04:36,665: INFO - Thread for client 192.168.2.100 started
+2023-01-24 21:04:36,674: INFO - ('192.168.2.100', 52971) connected to the server
+2023-01-24 21:04:49,297: INFO - 192.168.2.100 connected to the server on port 52972
+2023-01-24 21:04:49,298: INFO - Thread for client 192.168.2.100 started
+2023-01-24 21:04:49,299: INFO - ('192.168.2.100', 52972) connected to the server
+2023-01-24 21:06:14,852: INFO - REQUEST: < reg >Julian|julian_reichelt@yahoo.com|password123
+2023-01-24 21:32:40,224: INFO - 192.168.2.100 connected to the server on port 53070
+2023-01-24 21:32:40,227: INFO - Thread for client 192.168.2.100 started
+2023-01-24 21:32:40,230: INFO - ('192.168.2.100', 53070) connected to the server
+2023-01-24 21:33:05,543: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-01-24 21:33:33,154: INFO - Server is now listening ...
+2023-01-24 21:35:47,440: INFO - 192.168.2.100 connected to the server on port 53076
+2023-01-24 21:35:47,445: INFO - Thread for client 192.168.2.100 started
+2023-01-24 21:35:47,449: INFO - ('192.168.2.100', 53076) connected to the server
+2023-01-24 21:36:17,974: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-01-24 21:37:15,821: INFO - 192.168.2.100 connected to the server on port 53084
+2023-01-24 21:37:15,831: INFO - Thread for client 192.168.2.100 started
+2023-01-24 21:37:15,833: INFO - ('192.168.2.100', 53084) connected to the server
+2023-01-24 21:37:42,573: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-01-25 15:46:40,137: INFO - Server is now listening ...
+2023-01-25 15:46:43,733: INFO - 192.168.2.100 connected to the server on port 55030
+2023-01-25 15:46:43,743: INFO - Thread for client 192.168.2.100 started
+2023-01-25 15:46:43,778: INFO - ('192.168.2.100', 55030) connected to the server
+2023-01-25 15:47:39,481: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-01-25 15:48:26,049: ERROR - [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen Exception raised with client 192.168.2.100
+Traceback (most recent call last):
+  File "C:\Users\julia\OneDrive\Desktop\Code\Python\Apps\App\Backend\request_handler.py", line 55, in handle_client
+    client.send(data)
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+2023-01-25 15:53:17,101: INFO - 192.168.2.100 connected to the server on port 55049
+2023-01-25 15:53:17,103: INFO - Thread for client 192.168.2.100 started
+2023-01-25 15:53:17,105: INFO - ('192.168.2.100', 55049) connected to the server
+2023-01-25 15:53:38,940: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-01-25 15:53:51,903: INFO - REQUEST: < upload >
+2023-01-25 15:55:18,844: ERROR - [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen Exception raised with client 192.168.2.100
+Traceback (most recent call last):
+  File "C:\Users\julia\OneDrive\Desktop\Code\Python\Apps\App\Backend\request_handler.py", line 45, in handle_client
+    request = client.recv(1024).decode()
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+2023-01-25 15:55:21,854: INFO - 192.168.2.100 connected to the server on port 55060
+2023-01-25 15:55:21,856: INFO - Thread for client 192.168.2.100 started
+2023-01-25 15:55:21,858: INFO - ('192.168.2.100', 55060) connected to the server
+2023-01-25 15:55:49,115: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-01-25 15:55:59,525: INFO - REQUEST: < upload >
+2023-01-25 15:57:11,959: INFO - 192.168.2.100 connected to the server on port 55065
+2023-01-25 15:57:11,960: INFO - Thread for client 192.168.2.100 started
+2023-01-25 15:57:11,962: INFO - ('192.168.2.100', 55065) connected to the server
+2023-01-25 15:57:31,938: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-01-25 15:57:45,057: INFO - REQUEST: < upload >
+2023-01-25 15:57:45,058: INFO - REQUEST: orange1098...
+2023-01-25 15:58:28,211: INFO - 192.168.2.100 connected to the server on port 55072
+2023-01-25 15:58:28,214: INFO - Thread for client 192.168.2.100 started
+2023-01-25 15:58:28,223: INFO - ('192.168.2.100', 55072) connected to the server
+2023-01-25 15:58:56,108: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-01-25 15:59:01,625: INFO - REQUEST: < upload >
+2023-01-25 15:59:01,626: INFO - REQUEST: orange1098...
+2023-01-25 15:59:18,332: ERROR - [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen Exception raised with client 192.168.2.100
+Traceback (most recent call last):
+  File "C:\Users\julia\OneDrive\Desktop\Code\Python\Apps\App\Backend\request_handler.py", line 55, in handle_client
+    client.send(data)
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+2023-01-25 16:00:28,895: INFO - Server is now listening ...
+2023-01-25 16:00:31,319: INFO - 192.168.2.100 connected to the server on port 55082
+2023-01-25 16:00:31,321: INFO - Thread for client 192.168.2.100 started
+2023-01-25 16:00:31,324: INFO - ('192.168.2.100', 55082) connected to the server
+2023-01-25 16:00:50,695: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-01-25 16:01:28,311: INFO - Server is now listening ...
+2023-01-25 16:01:31,615: INFO - 192.168.2.100 connected to the server on port 55084
+2023-01-25 16:01:31,622: INFO - Thread for client 192.168.2.100 started
+2023-01-25 16:01:31,624: INFO - ('192.168.2.100', 55084) connected to the server
+2023-01-25 16:01:49,480: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-01-25 16:03:43,582: INFO - Server is now listening ...
+2023-01-25 16:03:45,476: INFO - 192.168.2.100 connected to the server on port 55105
+2023-01-25 16:03:45,477: INFO - Thread for client 192.168.2.100 started
+2023-01-25 16:03:45,479: INFO - ('192.168.2.100', 55105) connected to the server
+2023-01-25 16:04:10,660: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+
+Exception in thread Thread-1 (handle_client):
+Traceback (most recent call last):
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\julia\OneDrive\Desktop\Code\Python\Apps\App\Backend\request_handler.py", line 53, in handle_client
+    data = files.translate(request, address[0], client)
+  File "C:\Users\julia\OneDrive\Desktop\Code\Python\Apps\App\Backend\serilization.py", line 117, in translate
+    with open(f'Users/{address}/{filename}', 'wb') as f:
+OSError: [Errno 22] Invalid argument: 'Users/192.168.2.100/C:/Users/julia/OneDrive/Desktop/Desk/logs.txt'2023-01-29 16:59:20,442: INFO - Server is now listening ...
+2023-01-29 16:59:26,810: INFO - 192.168.2.100 connected to the server on port 57597
+2023-01-29 16:59:26,813: INFO - Thread for client 192.168.2.100 started
+2023-01-29 16:59:26,823: INFO - ('192.168.2.100', 57597) connected to the server
+2023-01-29 16:59:52,592: INFO - REQUEST: < reg >Julian|julian_reichelt@yahoo.com|passoword123
+2023-02-04 09:34:21,490: INFO - Server is now listening ...
+2023-02-04 09:34:26,605: INFO - 192.168.2.100 connected to the server on port 59732
+2023-02-04 09:34:26,606: INFO - Thread for client 192.168.2.100 started
+2023-02-04 09:34:26,607: INFO - ('192.168.2.100', 59732) connected to the server
+2023-02-04 09:34:56,633: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-02-04 09:36:13,032: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-02-04 09:36:44,575: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-02-04 09:36:44,659: ERROR - [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen Exception raised with client 192.168.2.100
+Traceback (most recent call last):
+  File "C:\Users\julia\OneDrive\Desktop\Code\Python\Git\CloudProject_PY\Backend\request_handler.py", line 45, in handle_client
+    request = client.recv(1024).decode()
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen

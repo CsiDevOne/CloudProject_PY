@@ -1,0 +1,9 @@
+2023-02-04 09:34:26,607: INFO - ('192.168.2.100', 59732) connected to the server
+2023-02-04 09:34:56,633: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-02-04 09:36:13,032: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-02-04 09:36:44,575: INFO - REQUEST: < log >Julian|julian_reichelt@yahoo.com|password123
+2023-02-04 09:36:44,659: ERROR - [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen Exception raised with client 192.168.2.100
+Traceback (most recent call last):
+  File "C:\Users\julia\OneDrive\Desktop\Code\Python\Git\CloudProject_PY\Backend\request_handler.py", line 45, in handle_client
+    request = client.recv(1024).decode()
+ConnectionResetError: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
