@@ -1,1 +1,0 @@
-"""You very stupid person"""
